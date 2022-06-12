@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Layout from "../components/Layout";
-import Link from "next/Link";
+import Link from "next/dist/client/link";
 import { getAllTasksData } from "../lib/tasks";
 import Task from "../components/Task";
 import useSWR from "swr";

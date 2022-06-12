@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import Link from "next/Link";
+import Link from "next/dist/client/link";
 import { getAllPostsData } from "../lib/posts";
 import Post from "../components/Post";
 

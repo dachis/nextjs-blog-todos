@@ -1,7 +1,7 @@
 import Cookie from "universal-cookie";
 import { useRouter } from "next/router";
 import Layout from "../components/Layout";
-import Link from "next/Link"
+import Link from "next/dist/client/link";
 
 const cookie = new Cookie();
 
